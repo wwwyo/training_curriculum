@@ -3,6 +3,6 @@ Rails.application.routes.draw do
   root 'calendars#index'
   resources :calendars
   resources :user
+  reosurces :item
 
-  resources :こんにちは
 end
